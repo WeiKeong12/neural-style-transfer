@@ -1,0 +1,12 @@
+Group,Experiment,Optimizer,Model,Content Weight,Adaptive,Iterations Logged,Final Content Loss,Final Style Loss,Final Total Loss,Best Total Loss,Best Iteration,Source,Final Content Weight,Final Style Weight
+Optimizer x Model,Adam — VGG16,Adam,VGG16,,No,1022,0.0,14631498.413086,33795448.0,33795448.0,1022,data\data-visual\mount-fuji_ancient-chinese-style_vgg16\mount-fuji_ancient-chinese-style_vgg16_test_002\iterations.csv,,
+Optimizer x Model,Adam — VGG19,Adam,VGG19,,No,1000,1269678808.59375,4207430625.0,5510371328.0,3164096512.0,966,data\data-visual\mount-fuji_ancient-chinese-style_vgg19\mount-fuji_ancient-chinese-style_vgg19_test_002\iterations.csv,,
+Optimizer x Model,L-BFGS — VGG16,L-BFGS,VGG16,,No,1030,608135253.90625,112988854.980469,745768384.0,745768384.0,1030,experiments (adam vs lbfgs)\lbfgs_vgg16\iterations.csv,,
+Optimizer x Model,L-BFGS — VGG19,L-BFGS,VGG19,,No,1016,924234765.625,477467958.984375,1425979008.0,1425979008.0,1016,experiments (adam vs lbfgs)\lbfgs-vgg19\iterations.csv,,
+Adaptive Weighting,Adaptive — L-BFGS VGG16,L-BFGS,VGG16,,Yes,1000,1083036820.796622,18713432298.93448,19820271616.0,8835377152.0,20,experiments (adaptive_weighting)\adaptive_test_vgg16_lbfgs\iterations.csv,70850.7,1292081.2
+Adaptive Weighting,Adaptive — L-BFGS VGG19,L-BFGS,VGG19,,Yes,1000,938748509.131697,24463546283.302734,25426378752.0,15022182400.0,19,experiments (adaptive_weighting)\adaptive_test_vgg19_lbfgs\iterations.csv,67214.6,606348.0
+Content-Weight Sweep,"CW = 50,000",L-BFGS,VGG16,50000.0,No,1029,342790234.375,68138613.28125,433883552.0,433883552.0,1029,experiments (content_weight_vgg16_LBFGS)\01_cw_50000\iterations.csv,,
+Content-Weight Sweep,"CW = 75,000",L-BFGS,VGG16,75000.0,No,1038,478784545.898438,90723559.570312,593390912.0,593390912.0,1038,experiments (content_weight_vgg16_LBFGS)\02_cw_75000\iterations.csv,,
+Content-Weight Sweep,"CW = 100,000 (Baseline)",L-BFGS,VGG16,100000.0,No,1030,608135253.90625,112988854.980469,745768384.0,745768384.0,1030,experiments (content_weight_vgg16_LBFGS)\00-baseline_100000\iterations.csv,,
+Content-Weight Sweep,"CW = 150,000",L-BFGS,VGG16,150000.0,No,1024,853885766.601562,155364140.625,1035082688.0,1035082688.0,1024,experiments (content_weight_vgg16_LBFGS)\03_cw_150000\iterations.csv,,
+Content-Weight Sweep,"CW = 200,000",L-BFGS,VGG16,200000.0,No,1026,1086464648.4375,197069296.875,1310323968.0,1310323968.0,1026,experiments (content_weight_vgg16_LBFGS)\04_cw_200000\iterations.csv,,
