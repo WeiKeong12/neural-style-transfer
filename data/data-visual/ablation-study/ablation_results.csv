@@ -1,0 +1,5 @@
+variant,content_weight,style_weight,tv_weight,final_total_loss,final_content_loss,final_style_loss,final_tv_loss,ssim,result_path
+full,100000.0,30000.0,1.0,,,,,,C:\Users\Wei Keong\Desktop\Y3S2\final-year-project\pytorch-neural-style-transfer-master\data\output-images\mount-fuji_ancient-chinese-style_vgg16_test_001
+no_content,0.0,30000.0,1.0,,,,,,C:\Users\Wei Keong\Desktop\Y3S2\final-year-project\pytorch-neural-style-transfer-master\data\output-images\mount-fuji_ancient-chinese-style_vgg16_test_002
+no_style,100000.0,0.0,1.0,,,,,,C:\Users\Wei Keong\Desktop\Y3S2\final-year-project\pytorch-neural-style-transfer-master\data\output-images\mount-fuji_ancient-chinese-style_vgg16_test_003
+no_tv,100000.0,30000.0,0.0,,,,,,C:\Users\Wei Keong\Desktop\Y3S2\final-year-project\pytorch-neural-style-transfer-master\data\output-images\mount-fuji_ancient-chinese-style_vgg16_test_004
